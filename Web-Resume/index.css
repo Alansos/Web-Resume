@@ -1,0 +1,59 @@
+/* index.css - simple version */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #fff;
+  color: #000;
+}
+
+.resume {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.contact {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #000;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 10px 0 5px 0;
+}
+
+ul {
+  margin: 5px 0 10px 20px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* Make the PDF link look like a plain link */
+.pdf-button {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+/* Print styles */
+@media print {
+  body {
+    margin: 0;
+  }
+  .pdf-button {
+    display: none; /* hide download link when printing */
+  }
+}

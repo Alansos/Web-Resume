@@ -1,4 +1,4 @@
-/* index.css - simple version */
+
 
 body {
   font-family: Arial, sans-serif;
@@ -42,13 +42,13 @@ p {
   margin: 5px 0;
 }
 
-/* Make the PDF link look like a plain link */
+
 .pdf-button {
   display: inline-block;
   margin-top: 15px;
 }
 
-/* Print styles */
+
 @media print {
   body {
     margin: 0;
@@ -57,3 +57,4 @@ p {
     display: none; /* hide download link when printing */
   }
 }
+
